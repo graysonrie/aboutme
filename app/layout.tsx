@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Head from "next/head";
 
 const dmSans = localFont({
   src: "./fonts/DMSans.ttf",
@@ -30,7 +31,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${dmSans.variable}` } >
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${dmSans.variable}`}
+      >
         {children}
       </body>
     </html>
