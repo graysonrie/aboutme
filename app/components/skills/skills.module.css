@@ -35,7 +35,7 @@
 }
 
 .content .list p:nth-child(1) {
-    color: greenyellow; 
+    color: rgb(54, 181, 134); 
   }
   
   .content .list p:nth-child(2) {
@@ -59,11 +59,11 @@
   }
 
   .content .list2 p:nth-child(2) {
-    color: rgb(165, 180, 255); 
+    color: rgb(91, 88, 146); 
   }
 
   .content .list2 p:nth-child(3) {
-    color: rgb(98, 255, 90); 
+    color: rgb(48, 211, 83); 
   }
 
   .content .list2 p:nth-child(4) {

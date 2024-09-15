@@ -1,0 +1,15 @@
+.content{
+    display: flex;
+    width: 100%;
+    min-height: 50px;
+    background-color: var(--background3);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content h1{
+    color: var(--col1);
+}

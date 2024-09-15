@@ -1,10 +1,16 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+html.light {
+  --background: #e8e8e8;
+  --background2: #dbdbdb;
+  --background3: #aaaaaa;
+  --background4: #a3a3a3;
+  --background5: #7a7a7a;
+  --foreground: #000000;
+  --col1: #524fff;
+  --col2: #ff4df9;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+html.dark {
     --background: #1c1e1f;
     --background2: #212324;
     --background3: #32383a;
@@ -14,7 +20,7 @@
     --col1: #4fe8ff;
     --col2: #ff4df9;
   }
-}
+
 
 html,
 body {
