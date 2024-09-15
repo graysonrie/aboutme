@@ -1,6 +1,4 @@
-import Image from "next/image";
 import styles from "./about.module.css";
-import tf4 from "../../public/images/th.jpg";
 
 export default function About() {
   return (
