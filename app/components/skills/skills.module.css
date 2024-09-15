@@ -1,0 +1,71 @@
+.content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 40px;
+
+    align-items: center;
+    background:var(--background2);
+}
+
+.sep{
+    margin-top: 100px;
+}
+
+.content h2{
+    margin-bottom: 10px;
+}
+
+.content h3{
+    color: var(--background5);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.content p{
+    font-size: 2rem;
+    margin: 10px;
+
+}
+
+.content .list, .list2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .list p:nth-child(1) {
+    color: greenyellow; 
+  }
+  
+  .content .list p:nth-child(2) {
+    color: rgb(52, 150, 255); 
+  }
+  
+  .content .list p:nth-child(3) {
+    color: rgb(39, 187, 255); 
+  }
+
+  .content .list p:nth-child(4) {
+    color: rgb(255, 39, 223); 
+  }
+
+  .content .list p:nth-child(5) {
+    color: rgb(39, 104, 255); 
+  }
+
+  .content .list2 p:nth-child(1) {
+    color: rgb(255, 247, 215); 
+  }
+
+  .content .list2 p:nth-child(2) {
+    color: rgb(165, 180, 255); 
+  }
+
+  .content .list2 p:nth-child(3) {
+    color: rgb(98, 255, 90); 
+  }
+
+  .content .list2 p:nth-child(4) {
+    color: rgb(156, 70, 255); 
+  }
