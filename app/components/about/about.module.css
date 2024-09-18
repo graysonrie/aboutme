@@ -1,5 +1,6 @@
 .main{
     display:flex;
+    height: 100%;
 }
 
 .imagecontainer {
@@ -23,10 +24,11 @@
     flex-direction: column;
     padding: 10px;
     border-radius: 10px;
-    margin: 6rem;
+    margin: 100px;
     align-items: center;
     padding: 20px;
-    margin-bottom: 200px;
+
+
 
     gap: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
